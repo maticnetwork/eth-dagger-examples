@@ -74,10 +74,9 @@ function pastWalletEvent(contract, fromBlock) {
       fromBlock: fromBlock
     },
     function(e, events) {
-      if (events.length > 0) {
-        const executionEvent = events[0];
+      events.forEach(function(executionEvent) {
         processEvent(contract, executionEvent);
-      }
+      });
     }
   );
 }
