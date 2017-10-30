@@ -98,7 +98,7 @@ function startListening(web3Contract) {
 }
 
 // Testing purpose
-pastWalletEvent(web3Contract, 4451374);
+// pastWalletEvent(web3Contract, 4451374);
 
 // To start listening
-// startListening(web3Contract);
+startListening(web3Contract);
