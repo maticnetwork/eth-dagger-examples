@@ -5,7 +5,7 @@
 //
 
 var Airtable = require('airtable')
-var Dagger = require('eth-dagger')
+var Dagger = require('eth-dagger').default
 var Web3 = require('web3')
 
 var MultisigWalletABI = require('./abi/MultisigWallet').abi
